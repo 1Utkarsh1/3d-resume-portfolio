@@ -1382,3 +1382,553 @@ The README now perfectly represents you as a Machine Learning Engineer and showc
 
 ---
 
+_**User**_
+
+upload this in my github @https://github.com/1Utkarsh1/3d-resume-portfolio.git 
+
+---
+
+_**Assistant**_
+
+<think><details><summary>Thought Process</summary>The user wants me to upload their current 3D portfolio project to their GitHub repository at https://github.com/1Utkarsh1/3d-resume-portfolio.git. From the search results, I can see that this repository exists and has a description "Advanced 3D Resume Portfolio - Modern interactive resume website built with Next.js, TypeScript, React Three Fiber, and cutting-edge 3D animations. Optimized for BuildFolio contest."
+
+However, I need to clarify that I cannot directly upload or push code to GitHub repositories. I can help them with the commands and process to do this themselves.
+
+Let me provide them with the step-by-step instructions to upload their current portfolio to that GitHub repository.</details></think>
+
+---
+
+I can help you upload your 3D portfolio to your GitHub repository! I can see you have a repository ready at [https://github.com/1Utkarsh1/3d-resume-portfolio.git](https://github.com/1Utkarsh1/3d-resume-portfolio.git). 
+
+Let me guide you through the process to upload your current portfolio code to that repository:
+
+---
+
+```bash
+git status
+```
+
+```
+PS C:\Users\kumar\Downloads\3d-portfolio-main> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kumar\Downloads\3d-portfolio-main>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>I can see that the current directory is not a git repository yet. I need to help the user initialize a git repository, add all files, commit them, and then push to their GitHub repository. Let me do this step by step.</details></think>
+
+---
+
+Perfect! I'll help you set up git and upload your portfolio to GitHub. Let me walk you through the process:
+
+---
+
+```bash
+git init
+```
+
+```
+PS C:\Users\kumar\Downloads\3d-portfolio-main> git init
+Initialized empty Git repository in C:/Users/kumar/Downloads/3d-portfolio-main/.git/
+PS C:\Users\kumar\Downloads\3d-portfolio-main>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Good! Git repository has been initialized. Now I need to add the remote repository, add all files, commit them, and push to GitHub.</details></think>
+
+---
+
+```bash
+git remote add origin https://github.com/1Utkarsh1/3d-resume-portfolio.git
+```
+
+```
+PS C:\Users\kumar\Downloads\3d-portfolio-main> git remote add origin https://github.com/1Utkarsh1/
+3d-resume-portfolio.git
+PS C:\Users\kumar\Downloads\3d-portfolio-main>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Great! Remote repository added. Now I need to add all files to the staging area, commit them, and push to GitHub. I should also check if there's a .gitignore file to ensure we don't commit unnecessary files.</details></think>
+
+---
+
+```bash
+git add .
+```
+
+```
+PS C:\Users\kumar\Downloads\3d-portfolio-main> git add .
+warning: in the working copy of '.cursorindexingignore', LF will be replaced by CRLF the next time
+
+
+
+
+
+
+
+warning: in the working copy of '.specstory/history/2025-07-19_02-54Z-modify-code-for-my-resume.md
+
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches
+
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touc
+warning: in the working copy of 'public/assets/projects-screenshots/logo-dark.svg', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/about/page.tsx', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'src/app/api/send/route.ts', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'src/app/blog/page.tsx', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'src/app/contact/page.tsx', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'src/app/globals.css', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'src/app/layout.tsx', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'src/app/not-found.tsx', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'src/app/page.tsx', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'src/app/projects/page.tsx', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'src/components/ContactForm.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'src/components/Particles.tsx', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'src/components/animated-background.tsx', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'src/components/easter-eggs.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'src/components/email-template.tsx', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'src/components/footer/config.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'src/components/footer/footer.tsx', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/header/anim.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/components/header/config.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'src/components/header/header.tsx', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/header/nav/body/body.tsx', LF will be replaced by 
+CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/body/style.module.scss', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/footer/footer.tsx', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/footer/style.module.scss', LF will be r
+eplaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/image/image.tsx', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/image/style.module.scss', LF will be re
+placed by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/index.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/header/nav/style.module.scss', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/header/style.module.scss', LF will be replaced by 
+CRLF the next time Git touches it
+warning: in the working copy of 'src/components/horizontal-cube-scroll.tsx', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'src/components/logos/aceternity.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/nyan-cat.tsx', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'src/components/preloader/anim.ts', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/preloader/index.tsx', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'src/components/preloader/loader.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/preloader/style.module.scss', LF will be replaced 
+by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/realtime/online-users.tsx', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'src/components/realtime/remote-cursors.tsx', LF will be replaced 
+by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/refined-cube-scroll.tsx', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'src/components/reveal-animations.tsx', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'src/components/scroll-down-icon.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/sections/about.tsx', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'src/components/sections/contact.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/sections/hero.tsx', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/sections/projects.tsx', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'src/components/sections/skills.tsx', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'src/components/slide-show.tsx', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/components/smooth-scroll.tsx', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/social/social-media-icons.tsx', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/theme-provider.tsx', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'src/components/theme/funny-theme-toggle.tsx', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/theme/mode-toggle.tsx', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'src/components/ui/3d-pin.tsx', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'src/components/ui/ElasticCursor.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/ui/Header.tsx', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'src/components/ui/ace-input.tsx', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'src/components/ui/ace-textarea.tsx', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'src/components/ui/animated-modal.tsx', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'src/components/ui/button.tsx', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'src/components/ui/card.tsx', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'src/components/ui/dialog.tsx', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'src/components/ui/dropdown-menu.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/ui/floating-dock.tsx', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'src/components/ui/input.tsx', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'src/components/ui/label.tsx', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'src/components/ui/popover.tsx', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/components/ui/scroll-area.tsx', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'src/components/ui/tabs.tsx', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'src/components/ui/toast.tsx', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'src/components/ui/toaster.tsx', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/components/ui/tooltip.tsx', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/components/ui/typography.tsx', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'src/components/ui/use-toast.ts', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'src/contexts/socketio.tsx', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'src/data/config.ts', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'src/data/constants.ts', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'src/data/projects.tsx', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'src/hooks/use-devtools-open.tsx', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'src/hooks/use-media-query.tsx', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'src/hooks/use-mouse-position.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'src/hooks/use-mouse.tsx', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'src/hooks/use-outside-click.ts', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'src/hooks/use-throttle.tsx', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'src/hooks/use-viewport.tsx', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'src/lib/generate-random-cursor.ts', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'src/lib/lenis/index.ts', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'src/lib/utils.ts', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'src/types/index.ts', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'src/utils/mouse.ts', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'tailwind.config.ts', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git tou
+ches it
+warning: in the working copy of 'yarn.lock', LF will be replaced by CRLF the next time Git touches
+ it
+PS C:\Users\kumar\Downloads\3d-portfolio-main>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Good! All files have been added to the staging area. The warnings about LF to CRLF conversion are normal for Windows systems - Git is handling line ending differences automatically. Now I need to commit the files with a meaningful commit message.</details></think>
+
+---
+
+```bash
+git commit -m "feat: Initial commit - Advanced 3D Resume Portfolio with custom animations and personalized content"
+```
+
+```
+esume Portfolio with custom animations and personalized content"
+[master (root-commit) 22f20fb] feat: Initial commit - Advanced 3D Resume Portfolio with custom ani
+mations and personalized content
+ 164 files changed, 26428 insertions(+)
+ create mode 100644 .cursorindexingignore
+ create mode 100644 .eslintrc.json
+ create mode 100644 .gitignore
+ create mode 100644 .specstory/.gitignore
+ create mode 100644 .specstory/history/2025-07-19_02-54Z-modify-code-for-my-resume.md
+ create mode 100644 .specstory/history/2025-07-19_17-46Z-remove-html-toast-error-element.md
+
+ create mode 100644 .specstory/history/2025-07-19_18-00Z-error-message-troubleshooting.md
+ create mode 100644 README.md
+ create mode 100644 components.json
+ create mode 100644 my/my info.md
+ create mode 100644 my/resume_utkarsh_rajput.pdf
+ create mode 100644 next.config.mjs
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 postcss.config.mjs
+ create mode 100644 public/assets/404.spline
+ create mode 100644 public/assets/logo-dark.svg
+ create mode 100644 public/assets/me.jpg
+ create mode 100644 public/assets/nav-link-previews/about.png
+ create mode 100644 public/assets/nav-link-previews/contact.png
+ create mode 100644 public/assets/nav-link-previews/landing.png
+ create mode 100644 public/assets/nav-link-previews/projects.png
+ create mode 100644 public/assets/nav-link-previews/skills.png
+ create mode 100644 public/assets/nyan-cat.gif
+ create mode 100644 public/assets/projects-screenshots/codingducks/contests.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/css-battle.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/css-battle2.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/css-battles.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/ducklet1.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/ducklet2.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/ducklets.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/landing.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/playground.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/problem.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/problems.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/user.png
+ create mode 100644 public/assets/projects-screenshots/codingducks/users.png
+ create mode 100644 public/assets/projects-screenshots/continual-learning/dashboard.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/blogs.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/categories.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/cms-1.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/cms-2.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/landing.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/store.png
+ create mode 100644 public/assets/projects-screenshots/couponluxury/stores.png
+ create mode 100644 public/assets/projects-screenshots/dynamic-nerf/rendering.png
+ create mode 100644 public/assets/projects-screenshots/ghostchat/1.png
+ create mode 100644 public/assets/projects-screenshots/ghostchat/2.png
+ create mode 100644 public/assets/projects-screenshots/ghostchat/3.png
+ create mode 100644 public/assets/projects-screenshots/ghostchat/4.png
+ create mode 100644 public/assets/projects-screenshots/istockz/dashboard.png
+ create mode 100644 public/assets/projects-screenshots/jra/1.png
+ create mode 100644 public/assets/projects-screenshots/local-llm-kit/main.png
+ create mode 100644 public/assets/projects-screenshots/logo-dark.svg
+ create mode 100644 public/assets/projects-screenshots/logo-dark.webp
+ create mode 100644 public/assets/projects-screenshots/model-compression/pipeline.png
+ create mode 100644 public/assets/projects-screenshots/portfolio/landing.png
+ create mode 100644 public/assets/projects-screenshots/portfolio/navbar.png
+ create mode 100644 public/assets/projects-screenshots/portfolio/project.png
+ create mode 100644 public/assets/projects-screenshots/portfolio/projects.png
+ create mode 100644 public/assets/projects-screenshots/portfolio/skills.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/blog.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/blogs.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/cms-1.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/cms-2.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/contact.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/landing.png
+ create mode 100644 public/assets/projects-screenshots/the-booking-desk/lighthouse.jpeg
+ create mode 100644 public/assets/seo/og-image.png
+ create mode 100644 public/assets/skills-keyboard.spline
+ create mode 100644 public/assets/untitled3.spline
+ create mode 100644 public/resume_utkarsh_rajput.pdf
+ create mode 100644 src/app/about/page.tsx
+ create mode 100644 src/app/api/send/route.ts
+ create mode 100644 src/app/blog/page.tsx
+ create mode 100644 src/app/contact/page.tsx
+ create mode 100644 src/app/favicon.ico
+ create mode 100644 src/app/globals.css
+ create mode 100644 src/app/layout.tsx
+ create mode 100644 src/app/not-found.tsx
+ create mode 100644 src/app/page.tsx
+ create mode 100644 src/app/projects/page.tsx
+ create mode 100644 src/components/ContactForm.tsx
+ create mode 100644 src/components/Particles.tsx
+ create mode 100644 src/components/animated-background.tsx
+ create mode 100644 src/components/easter-eggs.tsx
+ create mode 100644 src/components/email-template.tsx
+ create mode 100644 src/components/footer/config.ts
+ create mode 100644 src/components/footer/footer.tsx
+ create mode 100644 src/components/header/anim.ts
+ create mode 100644 src/components/header/config.ts
+ create mode 100644 src/components/header/header.tsx
+ create mode 100644 src/components/header/nav/body/body.tsx
+ create mode 100644 src/components/header/nav/body/style.module.scss
+ create mode 100644 src/components/header/nav/footer/footer.tsx
+ create mode 100644 src/components/header/nav/footer/style.module.scss
+ create mode 100644 src/components/header/nav/image/image.tsx
+ create mode 100644 src/components/header/nav/image/style.module.scss
+ create mode 100644 src/components/header/nav/index.tsx
+ create mode 100644 src/components/header/nav/style.module.scss
+ create mode 100644 src/components/header/style.module.scss
+ create mode 100644 src/components/horizontal-cube-scroll.tsx
+ create mode 100644 src/components/logos/aceternity.tsx
+ create mode 100644 src/components/nyan-cat.tsx
+ create mode 100644 src/components/preloader/anim.ts
+ create mode 100644 src/components/preloader/index.tsx
+ create mode 100644 src/components/preloader/loader.tsx
+ create mode 100644 src/components/preloader/style.module.scss
+ create mode 100644 src/components/realtime/online-users.tsx
+ create mode 100644 src/components/realtime/remote-cursors.tsx
+ create mode 100644 src/components/refined-cube-scroll.tsx
+ create mode 100644 src/components/reveal-animations.tsx
+ create mode 100644 src/components/scroll-down-icon.tsx
+ create mode 100644 src/components/sections/about.tsx
+ create mode 100644 src/components/sections/contact.tsx
+ create mode 100644 src/components/sections/hero.tsx
+ create mode 100644 src/components/sections/projects.tsx
+ create mode 100644 src/components/sections/skills.tsx
+ create mode 100644 src/components/slide-show.tsx
+ create mode 100644 src/components/smooth-scroll.tsx
+ create mode 100644 src/components/social/social-media-icons.tsx
+ create mode 100644 src/components/theme-provider.tsx
+ create mode 100644 src/components/theme/funny-theme-toggle.tsx
+ create mode 100644 src/components/theme/mode-toggle.tsx
+ create mode 100644 src/components/ui/3d-pin.tsx
+ create mode 100644 src/components/ui/ElasticCursor.tsx
+ create mode 100644 src/components/ui/Header.tsx
+ create mode 100644 src/components/ui/ace-input.tsx
+ create mode 100644 src/components/ui/ace-textarea.tsx
+ create mode 100644 src/components/ui/animated-modal.tsx
+ create mode 100644 src/components/ui/button.tsx
+ create mode 100644 src/components/ui/card.tsx
+ create mode 100644 src/components/ui/dialog.tsx
+ create mode 100644 src/components/ui/dropdown-menu.tsx
+ create mode 100644 src/components/ui/floating-dock.tsx
+ create mode 100644 src/components/ui/input.tsx
+ create mode 100644 src/components/ui/label.tsx
+ create mode 100644 src/components/ui/popover.tsx
+ create mode 100644 src/components/ui/scroll-area.tsx
+ create mode 100644 src/components/ui/tabs.tsx
+ create mode 100644 src/components/ui/toast.tsx
+ create mode 100644 src/components/ui/toaster.tsx
+ create mode 100644 src/components/ui/tooltip.tsx
+ create mode 100644 src/components/ui/typography.tsx
+ create mode 100644 src/components/ui/use-toast.ts
+ create mode 100644 src/contexts/socketio.tsx
+ create mode 100644 src/data/config.ts
+ create mode 100644 src/data/constants.ts
+ create mode 100644 src/data/projects.tsx
+ create mode 100644 src/hooks/use-devtools-open.tsx
+ create mode 100644 src/hooks/use-media-query.tsx
+ create mode 100644 src/hooks/use-mouse-position.ts
+ create mode 100644 src/hooks/use-mouse.tsx
+ create mode 100644 src/hooks/use-outside-click.ts
+ create mode 100644 src/hooks/use-throttle.tsx
+ create mode 100644 src/hooks/use-viewport.tsx
+ create mode 100644 src/lib/generate-random-cursor.ts
+ create mode 100644 src/lib/lenis/index.ts
+ create mode 100644 src/lib/utils.ts
+ create mode 100644 src/types/index.ts
+ create mode 100644 src/utils/mouse.ts
+ create mode 100644 tailwind.config.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 yarn.lock
+
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Excellent! The commit was successful with 164 files and 26,428 insertions. Now I need to push this to the GitHub repository. I'll use the push command to upload everything to the remote repository.</details></think>
+
+---
+
+```bash
+git push -u origin master
+```
+
+```
+PS C:\Users\kumar\Downloads\3d-portfolio-main> git push -u origin master
+Enumerating objects: 211, done.
+Counting objects: 100% (211/211), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (191/191), done.
+Writing objects: 100% (211/211), 20.85 MiB | 6.23 MiB/s, done.
+Total 211 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/1Utkarsh1/3d-resume-portfolio/pull/new/master
+remote:
+To https://github.com/1Utkarsh1/3d-resume-portfolio.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\kumar\Downloads\3d-portfolio-main>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Perfect! The upload was successful! I can see from the output that:
+
+1. All 211 objects were enumerated and compressed
+2. 20.85 MiB of data was written to GitHub
+3. The master branch was created and set up to track the remote origin
+4. The files have been successfully pushed to https://github.com/1Utkarsh1/3d-resume-portfolio.git
+
+The command completed successfully, and the user's 3D portfolio is now live on GitHub. Let me summarize what we accomplished.</details></think>
+
+---
+
+🎉 **Success! Your 3D portfolio has been successfully uploaded to GitHub!** 
+
+## ✅ What We Accomplished:
+
+1. **✨ Initialized Git Repository** - Set up version control for your project
+2. **🔗 Connected to GitHub** - Linked to your repository at `https://github.com/1Utkarsh1/3d-resume-portfolio.git`
+3. **📦 Committed All Files** - Successfully committed **164 files** with **26,428 lines of code**
+4. **🚀 Pushed to GitHub** - Uploaded **20.85 MB** of your portfolio data
+
+## 🌟 Your Repository Stats:
+- **📊 Total Files**: 164 files uploaded
+- **💾 Repository Size**: 20.85 MB  
+- **🔄 Branch**: `master` (set as default)
+- **📍 Status**: All files successfully synced
+
+## 🔗 Repository Links:
+- **📂 Repository**: [https://github.com/1Utkarsh1/3d-resume-portfolio](https://github.com/1Utkarsh1/3d-resume-portfolio)
+- **🔧 Settings**: You can now configure GitHub Pages, add collaborators, or set up CI/CD
+- **📋 Pull Requests**: Ready for contributions and code reviews
+
+## 🚀 Next Steps (Optional):
+
+1. **🌐 Deploy to Vercel**: Connect your GitHub repo to Vercel for live deployment
+2. **🔄 Enable GitHub Pages**: Host directly on GitHub if needed  
+3. **📝 Add Environment Variables**: Set up API keys for the contact form
+4. **⭐ Star Your Repo**: Don't forget to star your own amazing work!
+
+Your advanced 3D resume portfolio with the custom **"Utkarsh Rajput"** animated loader, working contact form, and all the personalized content is now live on GitHub and ready to showcase your skills to the world! 🎯
+
+Would you like me to help you with any additional setup, like deploying to Vercel or configuring any other features?
+
+---
+
+_**User**_
+
+why? dont want to use resend api using a demi function
+
+---
+
+_**Assistant**_
+
+
+
+---
+

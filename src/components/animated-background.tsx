@@ -354,8 +354,8 @@ const AnimatedBackground = () => {
       const skill = SKILLS[e.target.name as SkillNames];
       if (skill) {
         setSelectedSkill(skill);
-        splineApp.setVariable("heading", skill.label);
-        splineApp.setVariable("desc", skill.shortDescription);
+      splineApp.setVariable("heading", skill.label);
+      splineApp.setVariable("desc", skill.shortDescription);
       }
     });
     splineApp.addEventListener("mouseHover", handleMouseHover);
