@@ -1,0 +1,155 @@
+.introduction {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+  background-color: hsl(var(--background));
+  
+  svg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% + 300px);
+    path {
+      fill: hsl(var(--background));
+    }
+  }
+}
+
+.nameContainer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.firstName,
+.lastName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.letter {
+  display: inline-block;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  color: hsl(var(--foreground));
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.1em;
+  transform-origin: bottom center;
+  
+  &:hover {
+    color: hsl(var(--brand));
+    transition: color 0.3s ease;
+  }
+}
+
+.firstName .letter {
+  background: linear-gradient(135deg, hsl(var(--foreground)), hsl(var(--brand)));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2s ease-in-out infinite alternate;
+}
+
+.lastName .letter {
+  color: hsl(var(--foreground));
+  opacity: 0.8;
+}
+
+.percentage {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.progressBarContainer {
+  width: 200px;
+  height: 2px;
+  background-color: hsl(var(--muted));
+  border-radius: 1px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, hsl(var(--brand)), hsl(var(--foreground)));
+  border-radius: 1px;
+  transform-origin: left;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: progressShine 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    filter: brightness(1) hue-rotate(0deg);
+  }
+  100% {
+    filter: brightness(1.2) hue-rotate(10deg);
+  }
+}
+
+@keyframes progressShine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .letter {
+    font-size: clamp(2rem, 12vw, 4rem);
+    gap: 0.05rem;
+  }
+  
+  .nameWrapper {
+    gap: 0.25rem;
+  }
+  
+  .progressBarContainer {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .firstName,
+  .lastName {
+    gap: 0.05rem;
+  }
+  
+  .letter {
+    letter-spacing: 0.05em;
+  }
+}
