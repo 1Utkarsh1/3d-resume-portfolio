@@ -62,21 +62,21 @@ I specialize in shipping production-grade ML/DL pipelines, large-scale web platf
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
+    ```bash
    git clone https://github.com/1Utkarsh1/3d-portfolio.git
-   ```
+    ```
 
 2. **Navigate to the project directory:**
-   ```bash
+    ```bash
    cd 3d-portfolio
-   ```
+    ```
 
 3. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
 4. **Set up environment variables:**
    ```bash
@@ -86,11 +86,11 @@ I specialize in shipping production-grade ML/DL pipelines, large-scale web platf
    ```
 
 5. **Run the development server:**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
 6. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000) to see the portfolio in action!

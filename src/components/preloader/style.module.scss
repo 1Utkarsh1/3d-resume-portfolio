@@ -39,7 +39,7 @@
 
 .firstName,
 .lastName {
-  display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.1rem;
@@ -69,7 +69,7 @@
 }
 
 .lastName .letter {
-  color: hsl(var(--foreground));
+    color: hsl(var(--foreground));
   opacity: 0.8;
 }
 

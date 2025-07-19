@@ -1,44 +1,52 @@
-import { EmailTemplate } from "@/components/email-template";
-import { config } from "@/data/config";
-import { Resend } from "resend";
 import { z } from "zod";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
+// Demo mode - no external API dependencies
 const Email = z.object({
   fullName: z.string().min(2, "Full name is invalid!"),
   email: z.string().email({ message: "Email is invalid!" }),
   message: z.string().min(10, "Message is too short!"),
 });
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    console.log(body);
+    console.log("Demo Contact Form Submission:", body);
+    
+    // Validate the form data
     const {
       success: zodSuccess,
       data: zodData,
       error: zodError,
     } = Email.safeParse(body);
-    if (!zodSuccess)
+    
+    if (!zodSuccess) {
       return Response.json({ error: zodError?.message }, { status: 400 });
-
-    const { data: resendData, error: resendError } = await resend.emails.send({
-      from: "Porfolio <onboarding@resend.dev>",
-      to: [config.email],
-      subject: "Contact me from portfolio",
-      react: EmailTemplate({
-        fullName: zodData.fullName,
-        email: zodData.email,
-        message: zodData.message,
-      }),
-    });
-
-    if (resendError) {
-      return Response.json({ resendError }, { status: 500 });
     }
 
-    return Response.json(resendData);
+    // Simulate processing delay (like a real API)
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    // Demo mode: Always return success
+    const demoResponse = {
+      id: `demo_${Date.now()}`,
+      message: "Demo email sent successfully!",
+      data: {
+        fullName: zodData.fullName,
+        email: zodData.email,
+        messageLength: zodData.message.length,
+        timestamp: new Date().toISOString(),
+      },
+      demo: true
+    };
+
+    console.log("Demo Response:", demoResponse);
+    return Response.json(demoResponse);
+    
   } catch (error) {
-    return Response.json({ error }, { status: 500 });
+    console.error("Demo API Error:", error);
+    return Response.json({ 
+      error: "Demo API error", 
+      demo: true 
+    }, { status: 500 });
   }
 }
